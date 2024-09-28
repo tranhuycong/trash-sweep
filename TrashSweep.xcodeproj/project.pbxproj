@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		F83B24122CA80E4500352C32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F83B23F82CA80E4400352C32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F83B23FF2CA80E4400352C32;
+			remoteInfo = TrashSweep;
+		};
+		F83B241C2CA80E4500352C32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F83B23F82CA80E4400352C32 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F83B23FF2CA80E4400352C32;
+			remoteInfo = TrashSweep;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F83B24002CA80E4400352C32 /* TrashSweep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrashSweep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F83B24112CA80E4500352C32 /* TrashSweepTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrashSweepTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F83B241B2CA80E4500352C32 /* TrashSweepUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrashSweepUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F83B24022CA80E4400352C32 /* TrashSweep */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TrashSweep;
+			sourceTree = "<group>";
+		};
+		F83B24142CA80E4500352C32 /* TrashSweepTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TrashSweepTests;
+			sourceTree = "<group>";
+		};
+		F83B241E2CA80E4500352C32 /* TrashSweepUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TrashSweepUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F83B23FD2CA80E4400352C32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F83B240E2CA80E4500352C32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F83B24182CA80E4500352C32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F83B23F72CA80E4400352C32 = {
+			isa = PBXGroup;
+			children = (
+				F83B24022CA80E4400352C32 /* TrashSweep */,
+				F83B24142CA80E4500352C32 /* TrashSweepTests */,
+				F83B241E2CA80E4500352C32 /* TrashSweepUITests */,
+				F83B24012CA80E4400352C32 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F83B24012CA80E4400352C32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F83B24002CA80E4400352C32 /* TrashSweep.app */,
+				F83B24112CA80E4500352C32 /* TrashSweepTests.xctest */,
+				F83B241B2CA80E4500352C32 /* TrashSweepUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F83B23FF2CA80E4400352C32 /* TrashSweep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F83B24252CA80E4500352C32 /* Build configuration list for PBXNativeTarget "TrashSweep" */;
+			buildPhases = (
+				F83B23FC2CA80E4400352C32 /* Sources */,
+				F83B23FD2CA80E4400352C32 /* Frameworks */,
+				F83B23FE2CA80E4400352C32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F83B24022CA80E4400352C32 /* TrashSweep */,
+			);
+			name = TrashSweep;
+			packageProductDependencies = (
+			);
+			productName = TrashSweep;
+			productReference = F83B24002CA80E4400352C32 /* TrashSweep.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F83B24102CA80E4500352C32 /* TrashSweepTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F83B24282CA80E4500352C32 /* Build configuration list for PBXNativeTarget "TrashSweepTests" */;
+			buildPhases = (
+				F83B240D2CA80E4500352C32 /* Sources */,
+				F83B240E2CA80E4500352C32 /* Frameworks */,
+				F83B240F2CA80E4500352C32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F83B24132CA80E4500352C32 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F83B24142CA80E4500352C32 /* TrashSweepTests */,
+			);
+			name = TrashSweepTests;
+			packageProductDependencies = (
+			);
+			productName = TrashSweepTests;
+			productReference = F83B24112CA80E4500352C32 /* TrashSweepTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F83B241A2CA80E4500352C32 /* TrashSweepUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F83B242B2CA80E4500352C32 /* Build configuration list for PBXNativeTarget "TrashSweepUITests" */;
+			buildPhases = (
+				F83B24172CA80E4500352C32 /* Sources */,
+				F83B24182CA80E4500352C32 /* Frameworks */,
+				F83B24192CA80E4500352C32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F83B241D2CA80E4500352C32 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F83B241E2CA80E4500352C32 /* TrashSweepUITests */,
+			);
+			name = TrashSweepUITests;
+			packageProductDependencies = (
+			);
+			productName = TrashSweepUITests;
+			productReference = F83B241B2CA80E4500352C32 /* TrashSweepUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F83B23F82CA80E4400352C32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					F83B23FF2CA80E4400352C32 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					F83B24102CA80E4500352C32 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = F83B23FF2CA80E4400352C32;
+					};
+					F83B241A2CA80E4500352C32 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = F83B23FF2CA80E4400352C32;
+					};
+				};
+			};
+			buildConfigurationList = F83B23FB2CA80E4400352C32 /* Build configuration list for PBXProject "TrashSweep" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F83B23F72CA80E4400352C32;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F83B24012CA80E4400352C32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F83B23FF2CA80E4400352C32 /* TrashSweep */,
+				F83B24102CA80E4500352C32 /* TrashSweepTests */,
+				F83B241A2CA80E4500352C32 /* TrashSweepUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F83B23FE2CA80E4400352C32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F83B240F2CA80E4500352C32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F83B24192CA80E4500352C32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F83B23FC2CA80E4400352C32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F83B240D2CA80E4500352C32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F83B24172CA80E4500352C32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F83B24132CA80E4500352C32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F83B23FF2CA80E4400352C32 /* TrashSweep */;
+			targetProxy = F83B24122CA80E4500352C32 /* PBXContainerItemProxy */;
+		};
+		F83B241D2CA80E4500352C32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F83B23FF2CA80E4400352C32 /* TrashSweep */;
+			targetProxy = F83B241C2CA80E4500352C32 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F83B24232CA80E4500352C32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F83B24242CA80E4500352C32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F83B24262CA80E4500352C32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TrashSweep/TrashSweep.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TrashSweep/Preview Content\"";
+				DEVELOPMENT_TEAM = TH9FL7J7ZY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = congth504.TrashSweep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F83B24272CA80E4500352C32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TrashSweep/TrashSweep.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TrashSweep/Preview Content\"";
+				DEVELOPMENT_TEAM = TH9FL7J7ZY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = congth504.TrashSweep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F83B24292CA80E4500352C32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TH9FL7J7ZY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = congth504.TrashSweepTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrashSweep.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrashSweep";
+			};
+			name = Debug;
+		};
+		F83B242A2CA80E4500352C32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TH9FL7J7ZY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = congth504.TrashSweepTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrashSweep.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TrashSweep";
+			};
+			name = Release;
+		};
+		F83B242C2CA80E4500352C32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TH9FL7J7ZY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = congth504.TrashSweepUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TrashSweep;
+			};
+			name = Debug;
+		};
+		F83B242D2CA80E4500352C32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TH9FL7J7ZY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = congth504.TrashSweepUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = TrashSweep;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F83B23FB2CA80E4400352C32 /* Build configuration list for PBXProject "TrashSweep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F83B24232CA80E4500352C32 /* Debug */,
+				F83B24242CA80E4500352C32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F83B24252CA80E4500352C32 /* Build configuration list for PBXNativeTarget "TrashSweep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F83B24262CA80E4500352C32 /* Debug */,
+				F83B24272CA80E4500352C32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F83B24282CA80E4500352C32 /* Build configuration list for PBXNativeTarget "TrashSweepTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F83B24292CA80E4500352C32 /* Debug */,
+				F83B242A2CA80E4500352C32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F83B242B2CA80E4500352C32 /* Build configuration list for PBXNativeTarget "TrashSweepUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F83B242C2CA80E4500352C32 /* Debug */,
+				F83B242D2CA80E4500352C32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F83B23F82CA80E4400352C32 /* Project object */;
+}
