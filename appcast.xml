@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>TrashSweep App Updates</title>
+    <link>https://example.com/appcast.xml</link>
+    <description>Most recent changes with links to updates.</description>
+    <language>en</language>
+    <item>
+      <title>Version 1.1</title>
+      <sparkle:releaseNotesLink>https://example.com/release-notes.html</sparkle:releaseNotesLink>
+      <pubDate>Wed, 28 Sep 2024 12:00:00 +0000</pubDate>
+      <enclosure url="https://example.com/TrashSweep-1.1.zip" sparkle:version="1.1" sparkle:shortVersionString="1.1" length="10485760" type="application/octet-stream"/>
+    </item>
+  </channel>
+</rss>
