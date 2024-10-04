@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>SUFeedURL</key>
-	<string>https://tranhuycong.github.io/trash-sweep-page/appcast.xml</string>
+	<string>https://tranhuycong.github.io/trash-sweep/appcast.xml</string>
 	<key>CFBundleIconFile</key>
 	<string>AppIcon</string>
 </dict>

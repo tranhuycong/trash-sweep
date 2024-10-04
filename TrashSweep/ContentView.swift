@@ -19,8 +19,6 @@ struct ContentView: View {
     let updateController = SPUStandardUpdaterController(
         startingUpdater: true, updaterDelegate: nil, userDriverDelegate: nil)
 
-    @State private var shouldShowMenu = true
-
     init() {
         trashMonitor = TrashMonitor(contentView: self)
     }
@@ -33,13 +31,15 @@ struct ContentView: View {
                 Spacer()
                 Menu {
                     Button("About") {
-                        if let url = URL(string: "https://tranhuycong.github.io/trash-sweep-page") {
+                        if let url = URL(string: "https://tranhuycong.github.io/trash-sweep") {
                             NSWorkspace.shared.open(url)
                         }
                     }
-                     Button("Check for Updates") {
-                         updateController.checkForUpdates(self)
-                     }
+                    Button("Toogle menu bar icon") {
+                    }
+                    Button("Check for Updates") {
+                        updateController.checkForUpdates(self)
+                    }
                     Button("Quit") {
                         NSApplication.shared.terminate(self)
                     }
