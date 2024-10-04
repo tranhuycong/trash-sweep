@@ -1,5 +1,7 @@
 # TrashSweep App
 
+![TrashSweep Logo](assets/trash-sweep-screenshot.png)
+
 TrashSweep is an application designed to manage and clean up your trash directory using the FIFO (First In, First Out) rule. This ensures that the oldest files are deleted first, keeping your trash directory within a user-defined size limit.
 
 ## Features

@@ -33,11 +33,13 @@ struct ContentView: View {
                 Spacer()
                 Menu {
                     Button("About") {
-                        print("About")
+                        if let url = URL(string: "https://tranhuycong.github.io/trash-sweep-page") {
+                            NSWorkspace.shared.open(url)
+                        }
                     }
-                    Button("Check for Updates") {
-                        updateController.checkForUpdates(self)
-                    }
+                     Button("Check for Updates") {
+                         updateController.checkForUpdates(self)
+                     }
                     Button("Quit") {
                         NSApplication.shared.terminate(self)
                     }

@@ -21,7 +21,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
         if let button = statusItem?.button {
             button.image = NSImage(
-                systemSymbolName: "trash", accessibilityDescription: "Trash Sweep")
+                systemSymbolName: "arrow.up.trash.fill", accessibilityDescription: "Trash Sweep")
             button.action = #selector(statusBarButtonClicked)
         }
     }
