@@ -35,8 +35,6 @@ struct ContentView: View {
                             NSWorkspace.shared.open(url)
                         }
                     }
-                    Button("Toogle menu bar icon") {
-                    }
                     Button("Check for Updates") {
                         updateController.checkForUpdates(self)
                     }

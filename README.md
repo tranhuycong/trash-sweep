@@ -4,6 +4,16 @@
 
 TrashSweep is an application designed to manage and clean up your trash directory using the FIFO (First In, First Out) rule. This ensures that the oldest files are deleted first, keeping your trash directory within a user-defined size limit.
 
+## Download
+
+You can download the latest version of TrashSweep from the following link:
+
+[Download TrashSweep v1.0.1](https://github.com/tranhuycong/trash-sweep/releases/download/v1.0.1/TrashSweep-Installer.dmg)
+
+For all release versions, visit the following link:
+
+[All Releases](https://github.com/tranhuycong/trash-sweep/releases/tag/v1.0.1)
+
 ## Features
 
 - **FIFO Trash Management**: Automatically deletes the oldest files first to maintain the trash size within the specified limit.
