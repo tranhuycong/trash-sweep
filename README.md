@@ -21,7 +21,7 @@ TrashSweep is an application designed to manage and clean up your trash director
 
 ## Updates
 
-For the latest updates and release notes, please refer to the [appcast.xml](https://example.com/appcast.xml) file.
+For the latest updates and release notes, please refer to the [appcast.xml](appcast.xml) file.
 
 ## License
 
