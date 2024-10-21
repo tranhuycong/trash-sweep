@@ -14,6 +14,20 @@ For all release versions, visit the following link:
 
 [All Releases](https://github.com/tranhuycong/trash-sweep/releases/tag/v1.0.1)
 
+## Open a Mac app from an unknown developer
+
+1. On your Mac, choose Apple menu > System Settings, then click Privacy & Security in the sidebar. (You may need to scroll down.)
+
+2. Go to Security, then click Open.
+
+3. Click Open Anyway.
+
+This button is available for about an hour after you try to open the app.
+
+4. Enter your login password, then click OK.
+
+For more detailed instructions, visit the [Apple Support page](https://support.apple.com/en-vn/guide/mac-help/mh40616/mac).
+
 ## Features
 
 - **FIFO Trash Management**: Automatically deletes the oldest files first to maintain the trash size within the specified limit.
