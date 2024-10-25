@@ -8,11 +8,11 @@ TrashSweep is an application designed to manage and clean up your trash director
 
 You can download the latest version of TrashSweep from the following link:
 
-[Download TrashSweep v1.0.1](https://github.com/tranhuycong/trash-sweep/releases/download/v1.0.1/TrashSweep-Installer.dmg)
+[Download TrashSweep](https://github.com/tranhuycong/trash-sweep/releases/download/v1.3/TrashSweep-Installer-v1.3.dmg)
 
 For all release versions, visit the following link:
 
-[All Releases](https://github.com/tranhuycong/trash-sweep/releases/tag/v1.0.1)
+[All Releases](https://github.com/tranhuycong/trash-sweep/releases)
 
 ## Open a Mac app from an unknown developer
 
